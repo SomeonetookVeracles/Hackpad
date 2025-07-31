@@ -1671,22 +1671,40 @@
 		)
 	)
 	(junction
+		(at 123.19 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14465c52-bf58-4e1a-94ab-f4d13b5ebe39")
+	)
+	(junction
+		(at 123.19 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3144a2e9-b171-4964-8a90-0b15b603353d")
+	)
+	(junction
 		(at 102.87 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6960dcfa-d51a-4ac3-9648-0cd285bce826")
 	)
 	(junction
-		(at 21.59 72.39)
+		(at 49.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69bc1119-10d6-4b13-b6c1-04a4da741007")
 	)
 	(junction
-		(at 21.59 83.82)
+		(at 49.53 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b03ddd5-d7be-4e4f-bd1e-b71d13230de8")
+	)
+	(junction
+		(at 49.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73deac5d-31d9-4cb0-bcbe-fe499f2d4062")
 	)
 	(junction
 		(at 102.87 40.64)
@@ -1695,10 +1713,22 @@
 		(uuid "91c3253f-4d8a-4395-9c45-b449c8c183ba")
 	)
 	(junction
-		(at 21.59 60.96)
+		(at 49.53 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbccfd18-10ef-44c3-9806-8e472a7a6996")
+	)
+	(junction
+		(at 49.53 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0282cc8-1ecf-41b4-b8dd-7a5c985e8e54")
+	)
+	(junction
+		(at 49.53 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea02710d-0ca5-4cf0-b35d-dddd29c60997")
 	)
 	(wire
 		(pts
@@ -1712,6 +1742,46 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 116.84) (xy 49.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e5e492-27dd-4053-854d-129808e32398")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0969c707-8078-4e95-838e-cf266fa83fad")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 52.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc91c5c-136e-476e-a704-9dcc5791e2bd")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4eabae-5b56-4d46-927f-5748538d5ed7")
+	)
+	(wire
+		(pts
 			(xy 115.57 92.71) (xy 110.49 92.71)
 		)
 		(stroke
@@ -1722,13 +1792,53 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 88.9) (xy 71.12 88.9)
+			(xy 110.49 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120710b8-e858-45d9-bdcc-541a8cf6966f")
+	)
+	(wire
+		(pts
+			(xy 57.15 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1323ef64-bfe8-40cb-9b2b-60b312373240")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df24823-b445-48b4-90bf-4d106c3a505c")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 71.12 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "212d377a-2ef4-4565-a517-0fa566d7c074")
+	)
+	(wire
+		(pts
+			(xy 62.23 99.06) (xy 57.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a18e55-c180-4cb2-8d81-114b079d2ec4")
 	)
 	(wire
 		(pts
@@ -1742,7 +1852,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 83.82) (xy 24.13 83.82)
+			(xy 110.49 96.52) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30229b5e-5f55-49f7-b607-9134e95f637e")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 52.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 88.9) (xy 71.12 85.09)
+			(xy 71.12 87.63) (xy 71.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1782,6 +1902,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee1aa96-9724-42ce-82fd-9df1f4a78763")
+	)
+	(wire
+		(pts
 			(xy 110.49 77.47) (xy 132.08 77.47)
 		)
 		(stroke
@@ -1792,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 60.96) (xy 24.13 60.96)
+			(xy 49.53 59.69) (xy 52.07 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1812,13 +1942,33 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 49.53) (xy 21.59 60.96)
+			(xy 102.87 40.64) (xy 123.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d924e32-c41d-425c-92fa-5595f78be100")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 49.53 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61bcb261-f6f2-43e3-9901-a36a6d7b5631")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 62.23 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e5961a-76be-446b-815c-92672b015c22")
 	)
 	(wire
 		(pts
@@ -1832,13 +1982,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 60.96) (xy 21.59 72.39)
+			(xy 49.53 59.69) (xy 49.53 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f1ff1be-47cc-4a62-b2ea-fb23ae28d13b")
+	)
+	(wire
+		(pts
+			(xy 49.53 93.98) (xy 52.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712d9571-14a7-4edb-ba54-ecd5e87e5ac9")
 	)
 	(wire
 		(pts
@@ -1862,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 66.04) (xy 64.77 77.47)
+			(xy 64.77 64.77) (xy 64.77 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 72.39) (xy 21.59 83.82)
+			(xy 49.53 71.12) (xy 49.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +2072,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 77.47) (xy 62.23 77.47)
+			(xy 49.53 105.41) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998f70c3-2ad9-4fd2-977f-f13364cb4a99")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 62.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +2102,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 72.39) (xy 24.13 72.39)
+			(xy 123.19 40.64) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a876af47-7b3d-4ad6-a60c-b2b9a80ed86e")
+	)
+	(wire
+		(pts
+			(xy 49.53 71.12) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 83.82) (xy 21.59 99.06)
+			(xy 49.53 82.55) (xy 49.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 62.23 81.28)
+			(xy 62.23 76.2) (xy 62.23 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2002,6 +2182,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 96.52) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5ac66c-3047-4d35-aed6-471cf53c9da8")
+	)
+	(wire
+		(pts
 			(xy 73.66 88.9) (xy 74.93 88.9)
 		)
 		(stroke
@@ -2009,6 +2199,16 @@
 			(type default)
 		)
 		(uuid "ccd0aa9f-53c8-40b0-9f00-c51fada3b5f3")
+	)
+	(wire
+		(pts
+			(xy 49.53 93.98) (xy 49.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfaedb6-d0cc-425b-aa5c-3b1e1db5a4b7")
 	)
 	(wire
 		(pts
@@ -2022,7 +2222,17 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 49.53) (xy 21.59 49.53)
+			(xy 110.49 121.92) (xy 57.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41d47fc-ac3b-4143-b3d7-666ccaa0ae50")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 49.53 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2062,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 67.31 73.66)
+			(xy 67.31 53.34) (xy 67.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 54.61) (xy 67.31 54.61)
+			(xy 57.15 53.34) (xy 67.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2302,27 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 66.04) (xy 64.77 66.04)
+			(xy 130.81 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0a73e0-9fdd-4bc5-a2f7-0370aaea2ef6")
+	)
+	(wire
+		(pts
+			(xy 67.31 110.49) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5828aa-0673-451d-8436-0316732cd571")
+	)
+	(wire
+		(pts
+			(xy 57.15 64.77) (xy 64.77 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2342,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 26.67 52.07 0)
+		(at 54.61 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2121,7 +2351,7 @@
 		(fields_autoplaced yes)
 		(uuid "089f9afc-86bd-4fd9-bc48-28fd3681797d")
 		(property "Reference" "SW1"
-			(at 26.67 44.45 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2359,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 26.67 46.99 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2367,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
-			(at 26.67 52.07 0)
+			(at 54.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 52.07 0)
+			(at 54.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2385,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 52.07 0)
+			(at 54.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2476,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 26.67 63.5 0)
+		(at 54.61 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2255,7 +2485,7 @@
 		(fields_autoplaced yes)
 		(uuid "21563ef0-0dfe-455d-be6c-c1d4d53ca209")
 		(property "Reference" "SW2"
-			(at 26.67 55.88 0)
+			(at 54.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2493,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 26.67 58.42 0)
+			(at 54.61 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2501,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
-			(at 26.67 63.5 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 63.5 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2519,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 63.5 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,10 +2528,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "618b89d7-1502-4fac-b979-f568b2310c00")
+			(uuid "618b89d7-1502-4fac-b979-f568b2310c01")
 		)
 		(pin "1"
-			(uuid "c4425abd-c9b8-452d-9dad-7947991704b4")
+			(uuid "c4425abd-c9b8-452d-9dad-7947991704b5")
 		)
 		(instances
 			(project ""
@@ -2338,7 +2568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-RP2040-SMD"
 			(at 93.218 100.838 0)
 			(effects
 				(font
@@ -2484,7 +2714,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 26.67 74.93 0)
+		(at 54.61 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2493,7 +2723,7 @@
 		(fields_autoplaced yes)
 		(uuid "32301beb-f771-4b7b-825a-c0596276ea23")
 		(property "Reference" "SW3"
-			(at 26.67 67.31 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2731,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 26.67 69.85 0)
+			(at 54.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
-			(at 26.67 74.93 0)
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 74.93 0)
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 74.93 0)
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,10 +2766,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "618b89d7-1502-4fac-b979-f568b2310c00")
+			(uuid "618b89d7-1502-4fac-b979-f568b2310c02")
 		)
 		(pin "1"
-			(uuid "c4425abd-c9b8-452d-9dad-7947991704b4")
+			(uuid "c4425abd-c9b8-452d-9dad-7947991704b6")
 		)
 		(instances
 			(project ""
@@ -2627,8 +2857,84 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 123.19 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b96529-bf02-4fa0-af90-f6b883c85fde")
+		(property "Reference" "D3"
+			(at 132.08 41.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805"
+			(at 132.08 44.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 125.73 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99040ca2-182c-413b-93c6-787f60cfb9fc")
+		)
+		(pin "2"
+			(uuid "ee385318-c71e-4574-96eb-01e75b311d21")
+		)
+		(pin "3"
+			(uuid "2e515e04-b6d8-4c69-a19e-a99f6988b7c8")
+		)
+		(pin "4"
+			(uuid "aa8d8f45-6752-48e0-adb3-23277c181378")
+		)
+		(instances
+			(project "Hackpad"
+				(path "/9485444c-2c64-4f15-8cf4-361776941361"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 26.67 86.36 0)
+		(at 54.61 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2637,7 +2943,7 @@
 		(fields_autoplaced yes)
 		(uuid "501171d6-b42d-4fa3-9448-cf0f85781514")
 		(property "Reference" "SW4"
-			(at 26.67 78.74 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2951,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 26.67 81.28 0)
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2959,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
-			(at 26.67 86.36 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 86.36 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2977,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 86.36 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,10 +2986,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "618b89d7-1502-4fac-b979-f568b2310c00")
+			(uuid "618b89d7-1502-4fac-b979-f568b2310c03")
 		)
 		(pin "1"
-			(uuid "c4425abd-c9b8-452d-9dad-7947991704b4")
+			(uuid "c4425abd-c9b8-452d-9dad-7947991704b7")
 		)
 		(instances
 			(project ""
@@ -2696,7 +3002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 99.06 0)
+		(at 49.53 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2705,7 +3011,7 @@
 		(fields_autoplaced yes)
 		(uuid "81670b11-8fc4-48c3-b92e-d8c3eed31288")
 		(property "Reference" "#PWR05"
-			(at 21.59 105.41 0)
+			(at 49.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +3020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 104.14 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +3028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 99.06 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +3037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 99.06 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +3046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 99.06 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,6 +3199,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 54.61 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92998044-954e-4b19-a28f-21a4c0d42336")
+		(property "Reference" "SW8"
+			(at 54.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "531aabff-a71f-486c-af58-96d16bcb02f0")
+		)
+		(pin "1"
+			(uuid "838b077e-aa68-498b-8f55-b92009e21ca3")
+		)
+		(instances
+			(project "Hackpad"
+				(path "/9485444c-2c64-4f15-8cf4-361776941361"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 144.78 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a92e16c1-a3a9-40ad-b5e9-9bbab3413177")
+		(property "Reference" "D4"
+			(at 153.67 41.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805"
+			(at 153.67 44.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 147.32 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63987fdb-b879-40e0-9b47-ac1bc2a5a016")
+		)
+		(pin "2"
+			(uuid "c355562f-58d1-4144-b41d-5a394b25e248")
+		)
+		(pin "3"
+			(uuid "172bb5ef-0f3f-4acb-b527-41b4f7c170b3")
+		)
+		(pin "4"
+			(uuid "66d81837-f50e-4a2a-a8e2-00a34a758d22")
+		)
+		(instances
+			(project "Hackpad"
+				(path "/9485444c-2c64-4f15-8cf4-361776941361"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 132.08 71.12 0)
 		(unit 1)
@@ -2958,6 +3408,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 54.61 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d91eb804-afa0-4906-a3e9-8938a9234a3e")
+		(property "Reference" "SW6"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5df6b2d9-5bd9-440b-b767-de8330d17b66")
+		)
+		(pin "1"
+			(uuid "50dea292-ba3b-47d8-8338-3a71cbff743f")
+		)
+		(instances
+			(project "Hackpad"
+				(path "/9485444c-2c64-4f15-8cf4-361776941361"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6805")
 		(at 102.87 48.26 0)
 		(unit 1)
@@ -3013,21 +3531,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1ff5c36-c78a-43e3-b952-7c2f73b6ab06")
+			(uuid "a1ff5c36-c78a-43e3-b952-7c2f73b6ab07")
 		)
 		(pin "2"
-			(uuid "ca8c783a-7475-41ea-8199-52779231db14")
+			(uuid "ca8c783a-7475-41ea-8199-52779231db15")
 		)
 		(pin "3"
-			(uuid "e7d8b575-110e-48fa-a9be-8197c61cd5b2")
+			(uuid "e7d8b575-110e-48fa-a9be-8197c61cd5b3")
 		)
 		(pin "4"
-			(uuid "6eb528f3-900b-4d16-aa2e-a8edadb0203b")
+			(uuid "6eb528f3-900b-4d16-aa2e-a8edadb0203c")
 		)
 		(instances
 			(project ""
 				(path "/9485444c-2c64-4f15-8cf4-361776941361"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 54.61 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e134f073-20a4-4d8e-b393-5b5c2ca61400")
+		(property "Reference" "SW7"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53ad32af-ef01-4a90-8ba6-00d8137fbf39")
+		)
+		(pin "1"
+			(uuid "c3de68fc-3c46-413d-a80d-bbb35670dd0d")
+		)
+		(instances
+			(project "Hackpad"
+				(path "/9485444c-2c64-4f15-8cf4-361776941361"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3168,7 +3754,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fe473b0-d91d-4614-8ee4-3dcf84cdf05e")
+			(uuid "2fe473b0-d91d-4614-8ee4-3dcf84cdf05f")
 		)
 		(instances
 			(project ""
