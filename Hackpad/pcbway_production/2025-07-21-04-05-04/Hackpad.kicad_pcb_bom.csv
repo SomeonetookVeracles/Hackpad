@@ -1,5 +1,0 @@
-﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
-"D1, D10, D11, D12, D13, D14, D15, D16, D2, D3, D4, D5, D6, D7, D8, D9",16,SK6805,LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm,,,,smt,RGB LED with integrated controller
-"SW1, SW2, SW3, SW4, SW6, SW7, SW8",7,SW_Push_45deg,SW_Cherry_MX_PCB_1.00u,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
-SW5,1,RotaryEncoder_Switch_MP,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles,,,,tht,"Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-U1,1,XIAO-RP2040-DIP,XIAO-RP2040-SMD,,,,tht,
